@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/Semantic UI/dist/semantic.css" type="text/css">
+      <link rel="stylesheet" href="assets/main.css">
+      <title>Simple Twitter</title>
+   </head>
+   <body >
+    <!--Navigation bar -->
+    <!-- <nav class="ui fixed stackable menu container">
+      <button type="button" name="home" class="ui item button "> Home </button>
+      <button type="button" name="notifications" class="ui button item"> Notification </button>
+      <button type="button" name="messages" class="ui button item"> Messages</button>
+      <a href="#" class="ui item"><i class="ui big twitter icon"></i></a>
+      <a href="#" class="ui item">
+        <i class="ui user circular icon"></i>
+      </a>
+        <button type="button" name="tweet" class="ui button item">Tweet</button>
+        <button type="button" name="search" class="ui button item">Search</button>
+    </nav> -->
+    <div class="ui stackable three column grid container">
+      <section id = "left" class="ui column container" >
+        <article id="homeProfileCard" class="ui fluid card">
+            <div >
+              <img src="" alt="cover picture"><!-- Cover pic -->
+            </div>
+            <div>
+              <a href="#" id="username">Kellin Quinn</a>
+              <h4 id="handle">@kellinQuinn</h4>
+            </div>
+            <div class="ui horizontal list">
+              <span>
+                <a href="#">Tweets</a>
+                <div>10</div>
+              </span>
+              <span>
+                <a href="#">Followers</a>
+                <div>10</div>
+              </span>
+              <span>
+                <a href="#">Following</a>
+                <div>10</div>
+              </span>
+            </div>
+            <img src="" alt="profile picture" id="profilePicture"><!--profile pic  -->
+          </article>
+
+          <article id="trendsCard" class="ui fluid card">               <!--Trending Hashtags Card  -->
+            <header class="ui bulleted horizontal list">
+              <span class="ui item">Trends</span>
+              <a href="#" class="ui item ">change</a>
+            </header>
+            <div class="ui list" >
+              <div class="ui item">
+                <a class="header" href="#">#Trending 1</a>
+                <div class="description">100 tweets</div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+
+      <section id= "tweetsSection" class="ui column container"><!-- Feed -->
+          <section id="dashboardTweet"> <!--dashboard tweeting -->
+          </section>
+
+          <section id= "feed" class="feed">
+            <article class="tweet event">
+              <div class="">
+                <img src="" alt="tweeterProfilePicture">
+              </div>
+              <div>
+              <div class="tweeterIdentity">
+                <a href="#"class="tweeterName">Vic Fuentes </a>
+                <span class="tweeterHandle">@vicFuenters</span>
+              </div>
+              <div class="tweet content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="tweetActionButtons">
+                <div class="ui horizontal list">
+                    <button type="button" name="commentButton" class="item ui left labeled button ">
+                      <a href="#" class="ui basic right pointing label">10</a>
+                      comment
+                    </button>
+                  <button type="button" name="retweetButton"class="ui item">[retweet icon here] 1</button>
+                  <button type="button" name="likeButton" class="ui item">[like icon here] 1</button>
+                  <button type="button" name="directMessageButton"class="ui item">[direct message icon here] 1</button>
+                </div>
+              </div>
+          </div>
+        </article>
+
+        </section>
+      </section>
+      <!-- Aside -->
+      <aside class="ui column container">
+        <article id="whoToFollowCard" class="ui fluid card">
+          <header class="ui bulleted horizontal list">
+            <span class="ui item">Who to follow</span>
+            <a  href="#" class="item">Refresh</a>
+            <a href="#" class="item" >View all</a>
+          </header>
+          <div >
+            <div class="FollowSuggestionCard">
+              <div class="tweeterProfilePicture">
+                <img src="" alt="Profile Picture">
+              </div>
+              <div >
+                <div class=""><a href="#">Oli Sykes</a>@oliSykes <button type="button" name="dismissButton">x</button></div>
+      	          <button type="button" name="followButton">Follow</button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+       <article id="aboutCard" class="ui fluid card">
+         <header>
+            About
+         </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       </article>
+      </aside>
+    </div>
+  </body>
+  <script src="assets/jquery-3.2.1.min.js" charset="utf-8"></script>
+</html>
