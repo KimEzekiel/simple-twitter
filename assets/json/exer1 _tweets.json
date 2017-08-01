@@ -1,0 +1,47 @@
+[
+	{
+		"handler": "krissy",
+		"name": "Kris Aquino",
+		"message":"I love PH! <3 #PHisHART"
+	},
+	{
+		"handler": "chipsAhoy",
+		"name": "Chip N. Dale",
+		"message": "Ganito na lang ba palagi? #umaasa"
+	},
+	{
+		"handler": "lazada3306",
+		"name": "Lazada.com",
+		"message": "Go now to lazada.com to get upto 101% #discount! Hurry!"
+	},
+	{
+		"handler": "agnes1192015",
+		"name": "Agnes",
+		"message": "Ganito naman palagi. Malapit lang ako pero hindi mo ako makita :'( #hugot"
+	},
+	{
+		"handler": "eUPProject",
+		"name": "eUP Project",
+		"message": "Welcome to #SAIS! #KeepSAIS #SAISisHART"
+	},
+	{
+		"handler": "jthanpogi",
+		"name": "Than Nino",
+		"message": "Buong gabing programming para sa damdaming hindi maamin."
+	},
+	{
+		"handler": "adwow",
+		"name": "Ron Adolf Hitler",
+		"message": "Isang snippet para sa break-up na masaket."
+	},
+	{
+		"handler": "tanx4",
+		"name": "Josh Tanat",
+		"message": "Paracetamol para sa relasyon na naputol."
+	},
+	{
+		"handler": "XianGaHAza",
+		"name": "Naix Zagasa",
+		"message": "Isang nyeam para sa mga taong sabik makatikyeam."
+	}
+]

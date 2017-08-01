@@ -8,7 +8,7 @@
    </head>
    <body >
     <!--Navigation bar -->
-    <nav class="ui fixed stackable menu">
+    <!-- <nav class="ui fixed stackable menu container">
       <button type="button" name="home" class="ui item button "> Home </button>
       <button type="button" name="notifications" class="ui button item"> Notification </button>
       <button type="button" name="messages" class="ui button item"> Messages</button>
@@ -18,48 +18,49 @@
       </a>
         <button type="button" name="tweet" class="ui button item">Tweet</button>
         <button type="button" name="search" class="ui button item">Search</button>
-    </nav>
-    <div class="ui stackable three column grid">
+    </nav> -->
+    <div class="ui stackable three column grid container">
       <section id = "left" class="ui column container" >
-        <article id="homeProfileCard" class="ui card">
-          <div >
-            <img src="" alt="cover picture"><!-- Cover pic -->
-          </div>
-          <div>
-            <a href="#" id="username">Kellin Quinn</a>
-            <h4 id="handle">@kellinQuinn</h4>
-          </div>
-          <div class="ui horizontal list">
-            <span>
-              <a href="#">Tweets</a>
-              <div>10</div>
-            </span>
-            <span>
-              <a href="#">Followers</a>
-              <div>10</div>
-            </span>
-            <span>
-              <a href="#">Following</a>
-              <div>10</div>
-            </span>
-          </div>
-          <img src="" alt="profile picture" id="profilePicture"><!--profile pic  -->
-        </article>
-
-        <article id="trendsCard" class="ui card">               <!--Trending Hashtags Card  -->
-          <header class="ui bulleted horizontal list">
-            <span class="ui item">Trends</span>
-            <a href="#" class="ui item ">change</a>
-          </header>
-          <div class="ui list" >
-            <div class="ui item">
-              <a class="header" href="#">#Trending 1</a>
-              <div class="description">100 tweets</div>
+        <article id="homeProfileCard" class="ui fluid card">
+            <div >
+              <img src="" alt="cover picture"><!-- Cover pic -->
             </div>
-          </div>
-        </article>
+            <div>
+              <a href="#" id="username">Kellin Quinn</a>
+              <h4 id="handle">@kellinQuinn</h4>
+            </div>
+            <div class="ui horizontal list">
+              <span>
+                <a href="#">Tweets</a>
+                <div>10</div>
+              </span>
+              <span>
+                <a href="#">Followers</a>
+                <div>10</div>
+              </span>
+              <span>
+                <a href="#">Following</a>
+                <div>10</div>
+              </span>
+            </div>
+            <img src="" alt="profile picture" id="profilePicture"><!--profile pic  -->
+          </article>
 
-      </section>
+          <article id="trendsCard" class="ui fluid card">               <!--Trending Hashtags Card  -->
+            <header class="ui bulleted horizontal list">
+              <span class="ui item">Trends</span>
+              <a href="#" class="ui item ">change</a>
+            </header>
+            <div class="ui list" >
+              <div class="ui item">
+                <a class="header" href="#">#Trending 1</a>
+                <div class="description">100 tweets</div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+
       <section id= "tweetsSection" class="ui column container"><!-- Feed -->
           <section id="dashboardTweet"> <!--dashboard tweeting -->
           </section>
@@ -95,7 +96,7 @@
       </section>
       <!-- Aside -->
       <aside class="ui column container">
-        <article class="ui card" id="whoToFollowCard" class="ui column">
+        <article id="whoToFollowCard" class="ui fluid card">
           <header class="ui bulleted horizontal list">
             <span class="ui item">Who to follow</span>
             <a  href="#" class="item">Refresh</a>
@@ -113,7 +114,8 @@
               </div>
             </div>
           </article>
-       <article id="aboutCard" class="ui card">
+
+       <article id="aboutCard" class="ui fluid card">
          <header>
             About
          </header>
