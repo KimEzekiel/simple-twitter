@@ -2,29 +2,57 @@
 <html>
     <head lang="en">
       <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="assets/Semantic UI/dist/semantic.css" type="text/css">
-      <link rel="stylesheet" href="assets/main.css">
+      <link rel="stylesheet" href="../assets/css/Semantic UI/dist/semantic.css" type="text/css"> <!--- import semantic ui-->
+      <link rel="stylesheet" href="../assets/css/main.css">
       <title>Simple Twitter</title>
    </head>
    <body >
     <!--Navigation bar -->
-    <!-- <nav class="ui fixed stackable menu container">
-      <button type="button" name="home" class="ui item button "> Home </button>
-      <button type="button" name="notifications" class="ui button item"> Notification </button>
-      <button type="button" name="messages" class="ui button item"> Messages</button>
-      <a href="#" class="ui item"><i class="ui big twitter icon"></i></a>
-      <a href="#" class="ui item">
-        <i class="ui user circular icon"></i>
-      </a>
-        <button type="button" name="tweet" class="ui button item">Tweet</button>
-        <button type="button" name="search" class="ui button item">Search</button>
-    </nav> -->
+    <nav class="ui fixed stacking borderless menu">
+      <!-- <div class="ui container"> -->
+        <div class="ui item">
+          <button type="button" name="home" class="ui button">
+            <i class="ui home icon"></i>
+          </button>
+        </div>
+        <div class="ui item">
+          <button type="button" name="notifications" class="ui button">
+            <i class="ui bell icon"></i>
+          </button>
+        </div>
+        <div class="ui item">
+          <button type="button" name="messages" class="ui button">
+            <i class="ui envelope icon"></i>
+          </button>
+        </div>
+        <div class="ui center item">
+          <a href="#" class="ui">
+            <i class="ui big twitter icon"></i>
+          </a>
+        </div>
+        <div class="ui right item">
+          <button type="button" name="tweet" class="ui circular blue button">
+            Tweet
+          </button>
+        </div>
+        <div class="ui right item">
+          <div class="ui icon input">
+            <input type="text" name="searchTextBox" value="" placeholder="Search..">
+            <i class="ui search icon"></i>
+          </div>
+        </div>
+        <div class="ui right item">
+          <a href="#" class="ui">
+            <i class="ui user circular icon"></i>
+          </a>
+        </div>
+
+      <!-- </div> -->
+    </nav>
+
     <div class="ui stackable three column grid container">
       <section id = "left" class="ui column container" >
         <article id="homeProfileCard" class="ui fluid card">
-            <div >
-              <img src="" alt="cover picture"><!-- Cover pic -->
-            </div>
             <div>
               <a href="#" id="username">Kellin Quinn</a>
               <h4 id="handle">@kellinQuinn</h4>
@@ -124,5 +152,8 @@
       </aside>
     </div>
   </body>
-  <script src="assets/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <!-- Javascript imports -->
+  <script src="../assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="../assets/css/Semantic UI/dist/semantic.js" charset="utf-8"></script>
+  <script src="../assets/js/tweetio.js" charset="utf-8"></script>
 </html>
