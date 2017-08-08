@@ -90,8 +90,12 @@
 
 
       <section id= "tweetsSection" class="ui column container"><!-- Feed -->
-        <section id="dashboardTweet"> <!--dashboard tweeting -->
-        </section>
+        <div id="dashboardTweet" class="ui segment" > <!--dashboard tweeting -->
+          <form class="ui form" id="tweetBox" >
+            <input class="ui big input" type="text" name="tweetMessage" value="" placeholder="What do you have in mind?">
+            <button type="button" name="submitTweet" class="ui blue button">Tweet</button>
+          </form>
+        </div>
 
         <section id= "feed" class="feed">
         </section>
